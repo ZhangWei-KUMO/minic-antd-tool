@@ -1,0 +1,17 @@
+{
+  "name": "minic-antd-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ZhangWei-KUMO/minic-antd-tool.git",
+  "author": "ZhangWei-KUMO <kanseefoil@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "pub": "antd-tools run pub",
+    "clean": "antd-tools run clean",
+    "compile": "antd-tools run compile",
+    "test": "node demo/run.js"
+  },
+  "devDependencies": {
+    "@ant-design/tools": "^8.0.4"
+  }
+}
